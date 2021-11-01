@@ -48,7 +48,7 @@ body{
     padding:10px;
 }
 
-#delete{
+#delete,#add-button{
     float:right;
     background-color: #1E5128;
     font-size: 20px;
@@ -60,4 +60,25 @@ body{
 #delete{
     border-radius:10px;
 }
+
+#add-book{
+    width:70%;
+    border:3px solid #4E9F3D;
+    height:50px;
+    font-size:20px;
+    padding:10px;
+}
+#add-button{
+    width:30%;
+    padding-right:10px;
+    border-radius: 5px;
+}
+.intake{
+    padding-bottom:20px;
+    width:40%;
+    position:fixed;
+    left:400px;
+    bottom:0px;
+}
+
 
